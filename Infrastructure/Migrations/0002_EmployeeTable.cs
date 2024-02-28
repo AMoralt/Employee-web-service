@@ -12,10 +12,10 @@ CREATE TABLE Employee (
     Name VARCHAR(255) NOT NULL,
     Surname VARCHAR(255) NOT NULL,
     Phone VARCHAR(50),
-    CompanyId INT NOT NULL,
+    CompanyId INT,
     Type VARCHAR(50),
     Number VARCHAR(50) NOT NULL UNIQUE,
-    DepartmentId INT NOT NULL,
+    DepartmentId INT,
     FOREIGN KEY (DepartmentId) REFERENCES Department(Id) ON DELETE SET NULL
 );
 ");

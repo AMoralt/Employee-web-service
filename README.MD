@@ -9,7 +9,7 @@
 1. Установите [.NET Core SDK](https://dotnet.microsoft.com/download) и [PostgreSQL](https://www.postgresql.org/download/).
 2. Создайте пустую базу данных в PostgreSQL.
 3. Клонируйте репозиторий проекта:
-   git clone <url_репозитория>
+   git clone https://github.com/AMoralt/Employee-web-service.git
 4. Откройте файл `appsettings.json` и обновите строку подключения к базе данных в соответствии с вашей конфигурацией.
 
 ## Запуск проекта

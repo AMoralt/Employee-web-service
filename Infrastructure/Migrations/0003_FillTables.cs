@@ -7,7 +7,7 @@ public class FillTables: ForwardOnlyMigration
     public override void Up()
     {
         Execute.Sql(@"
-            INSERT INTO Department (Id, Name, Phone)
+            INSERT INTO Department (Name, Phone)
             VALUES
             ('Разработка', '+71234567890'),
             ('Маркетинг', '+70987654321'),

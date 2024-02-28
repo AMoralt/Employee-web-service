@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "66Tem8BbR4F112TxJRPNyQiDbPICL1wLmikvfa5sLQkMxQd5lHNye3j4zoVq9QY8T+LFtAAf5/G2qtriPboWlg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\AMoralt\\RiderProjects\\TestWebService\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AMoralt\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\AMoralt\\.nuget\\packages\\fluentmigrator\\3.3.2\\fluentmigrator.3.3.2.nupkg.sha512",
+    "C:\\Users\\AMoralt\\.nuget\\packages\\fluentmigrator.abstractions\\3.3.2\\fluentmigrator.abstractions.3.3.2.nupkg.sha512",
+    "C:\\Users\\AMoralt\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\AMoralt\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\AMoralt\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\AMoralt\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\AMoralt\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\AMoralt\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\2.0.0\\microsoft.extensions.dependencyinjection.2.0.0.nupkg.sha512",
+    "C:\\Users\\AMoralt\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\AMoralt\\.nuget\\packages\\microsoft.extensions.options\\2.0.1\\microsoft.extensions.options.2.0.1.nupkg.sha512",
+    "C:\\Users\\AMoralt\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\AMoralt\\.nuget\\packages\\npgsql\\6.0.6\\npgsql.6.0.6.nupkg.sha512",
+    "C:\\Users\\AMoralt\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512",
+    "C:\\Users\\AMoralt\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\AMoralt\\.nuget\\packages\\system.valuetuple\\4.4.0\\system.valuetuple.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

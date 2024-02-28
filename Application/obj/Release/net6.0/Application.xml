@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Application</name>
+    </assembly>
+    <members>
+        <member name="T:Application.Controllers.DepartmentController">
+            <summary>
+            Управление отделами.
+            </summary>
+        </member>
+        <member name="M:Application.Controllers.DepartmentController.Create(Application.Commands.Departments.CreateDepartmentCommand,System.Threading.CancellationToken)">
+             <summary>
+             Создает новый отдел.
+             </summary>
+             <remarks>
+             Для создания отдела необходимо указать все обязательные поля.
+            
+             Параметры запроса:
+             - Name - обязательное поле.
+             - Phone - обязательное поле.
+             </remarks>
+             <param name="command">Команда для создания отдела.</param>
+             <returns>ID созданного отдела.</returns>
+             <response code="200">Возвращает ID созданного отдела.</response>
+             <response code="400">Если запрос некорректен.</response>
+        </member>
+        <member name="M:Application.Controllers.DepartmentController.GetAll(System.Int32,System.Int32,System.Threading.CancellationToken)">
+             <summary>
+             Возвращает список всех отделов с пагинацией.
+             </summary>
+             <remarks>
+             Этот метод возвращает список отделов с возможностью пагинации. Можно указать limit и offset для управления объемом данных.
+            
+             Параметры запроса:
+             - limit - необязательное поле.
+             - offset - необязательное поле.
+             </remarks>
+             <param name="limit">Ограничение количества возвращаемых записей.</param>
+             <param name="offset">Смещение начала выборки.</param>
+             <returns>Список отделов.</returns>
+             <response code="200">Возвращает список отделов.</response>
+             <response code="400">Если запрос некорректен.</response>
+        </member>
+        <member name="M:Application.Controllers.DepartmentController.Update(Application.Commands.Departments.UpdateDepartmentCommand,System.Threading.CancellationToken)">
+             <summary>
+             Обновляет данные отдела.
+             </summary>
+             <remarks>
+             Этот метод позволяет обновить данные отдела. Необходимо указать ID отдела и данные, которые требуется обновить.
+            
+             Все поля кроме ID являются необязательными и будут обновлены только если они предоставлены.
+             </remarks>
+             <param name="command">Команда обновления отдела.</param>
+             <returns>Результат выполнения операции.</returns>
+             <response code="200">Если обновление прошло успешно.</response>
+             <response code="400">Если запрос некорректен.</response>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Application.Controllers.DepartmentController.Delete(System.Int32,System.Threading.CancellationToken)" -->
+        <member name="T:Application.Controllers.EmployeeController">
+            <summary>
+            Управление сотрудниками.
+            </summary>
+        </member>
+        <member name="M:Application.Controllers.EmployeeController.CreateEmployee(Application.Commands.Employees.CreateEmployeeCommand,System.Threading.CancellationToken)">
+             <summary>
+             Добавляет нового сотрудника.
+             </summary>
+             <remarks>
+             Для создания сотрудника необходимо ввести все поля.
+            
+             Параметры запроса:
+             - name - обязательное поле.
+             - surname - обязательное поле.
+             - phone - обязательное поле, должно соответствовать формату "+[код страны][номер]".
+             - companyId - обязательное поле, должно быть больше 0.
+             - passport.type - обязательное поле.
+             - passport.number - обязательное поле.
+             - departmentId - обязательное поле, должно быть больше 0.
+             </remarks>
+             <param name="command">Команда для создания сотрудника.</param>
+             <returns>ID добавленного сотрудника.</returns>
+             <response code="200">Возвращает ID добавленного сотрудника.</response>
+             <response code="400">Если запрос некорректен.</response>
+        </member>
+        <member name="M:Application.Controllers.EmployeeController.GetAllEmployee(System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Возвращает список всех сотрудников с пагинацией.
+            </summary>
+            <remarks>
+            Этот метод возвращает список сотрудников с возможностью пагинации. Можно указать limit и offset для управления объемом данных.
+            
+            Параметры запроса:
+            - limit - необязательное поле.
+            - offset - необязательное поле.
+            </remarks>
+            <param name="limit">Ограничение количества возвращаемых записей.</param>
+            <param name="offset">Смещение начала выборки.</param>
+            <returns>Список сотрудников.</returns>
+            <response code="200">Возвращает список сотрудников.</response>
+            <response code="400">Если запрос некорректен.</response>
+        </member>
+        <member name="M:Application.Controllers.EmployeeController.GetAllByDepartmentIdEmployee(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)">
+             <summary>
+             Возвращает список сотрудников по ID отдела с пагинацией.
+             </summary>
+             <remarks>
+             Этот метод возвращает список сотрудников, принадлежащих определенному отделу, с возможностью пагинации. Можно указать limit и offset для управления объемом данных.
+            
+             Параметры запроса:
+             - departmentId - обязательное поле.
+             - limit - необязательное поле.
+             - offset - необязательное поле.
+             </remarks>
+             <param name="departmentId">ID отдела.</param>
+             <param name="limit">Ограничение количества возвращаемых записей.</param>
+             <param name="offset">Смещение начала выборки.</param>
+             <returns>Список сотрудников указанного отдела.</returns>
+             <response code="200">Возвращает список сотрудников отдела.</response>
+             <response code="400">Если запрос некорректен.</response>
+        </member>
+        <member name="M:Application.Controllers.EmployeeController.GetAllByCompanyIdEmployee(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Возвращает список сотрудников по ID компании с пагинацией.
+            </summary>
+            <remarks>
+            Этот метод позволяет получить список сотрудников, принадлежащих определенной компании, с возможностью пагинации. Можно указать limit и offset для управления объемом данных.
+            
+            Параметры запроса:
+            - companyId - обязательное поле.
+            - limit - необязательное поле.
+            - offset - необязательное поле.
+            </remarks>
+            <param name="companyId">ID компании.</param>
+            <param name="limit">Ограничение количества возвращаемых записей.</param>
+            <param name="offset">Смещение начала выборки.</param>
+            <returns>Список сотрудников указанной компании.</returns>
+            <response code="200">Возвращает список сотрудников компании.</response>
+            <response code="400">Если запрос некорректен.</response>
+        </member>
+        <member name="M:Application.Controllers.EmployeeController.UpdateEmployee(Application.Commands.Employees.UpdateEmployeeCommand,System.Threading.CancellationToken)">
+             <summary>
+             Обновляет данные сотрудника.
+             </summary>
+             <remarks>
+             Этот метод позволяет обновить данные сотрудника. Необходимо указать ID сотрудника и данные, которые требуется обновить.
+            
+             Все поля, кроме ID, являются необязательными и будут обновлены только если они предоставлены.
+             </remarks>
+             <param name="command">Команда обновления сотрудника.</param>
+             <returns>Результат выполнения операции.</returns>
+             <response code="200">Если обновление прошло успешно.</response>
+             <response code="400">Если запрос некорректен.</response>
+        </member>
+        <member name="M:Application.Controllers.EmployeeController.Delete(System.Int32,System.Threading.CancellationToken)">
+             <summary>
+             Удаляет сотрудника по ID.
+             </summary>
+             <remarks>
+             Этот метод позволяет удалить сотрудника из системы по его идентификатору.
+            
+             Параметры запроса:
+             - departmentId - обязательное поле.
+             </remarks>
+             <param name="departmentId">ID сотрудника для удаления.</param>
+             <returns>Результат выполнения операции.</returns>
+             <response code="200">Если удаление прошло успешно.</response>
+             <response code="400">Если запрос некорректен.</response>
+        </member>
+    </members>
+</doc>

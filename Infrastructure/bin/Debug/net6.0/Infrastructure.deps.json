@@ -1,0 +1,266 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Infrastructure/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.0.123",
+          "Domain": "1.0.0",
+          "FluentMigrator": "3.3.2",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.0",
+          "Npgsql": "6.0.6"
+        },
+        "runtime": {
+          "Infrastructure.dll": {}
+        }
+      },
+      "Dapper/2.0.123": {
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.123.33578"
+          }
+        }
+      },
+      "FluentMigrator/3.3.2": {
+        "dependencies": {
+          "FluentMigrator.Abstractions": "3.3.2",
+          "Microsoft.Extensions.DependencyInjection": "2.0.0",
+          "Microsoft.Extensions.Options": "2.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentMigrator.dll": {
+            "assemblyVersion": "3.3.2.0",
+            "fileVersion": "3.3.2.0"
+          }
+        }
+      },
+      "FluentMigrator.Abstractions/3.3.2": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1",
+          "System.ValueTuple": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentMigrator.Abstractions.dll": {
+            "assemblyVersion": "3.3.2.0",
+            "fileVersion": "3.3.2.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/de-DE/FluentMigrator.Abstractions.resources.dll": {
+            "locale": "de-DE"
+          }
+        }
+      },
+      "MediatR/10.0.0": {
+        "dependencies": {
+          "MediatR.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          }
+        }
+      },
+      "MediatR.Contracts/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/10.0.0": {
+        "dependencies": {
+          "MediatR": "10.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/2.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/2.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.18051"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      },
+      "Npgsql/6.0.6": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.dll": {
+            "assemblyVersion": "6.0.6.0",
+            "fileVersion": "6.0.6.0"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.4.1": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.ValueTuple/4.4.0": {},
+      "Domain/1.0.0": {
+        "dependencies": {
+          "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.0"
+        },
+        "runtime": {
+          "Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dapper/2.0.123": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RDFF4rBLLmbpi6pwkY7q/M6UXHRJEOerplDGE5jwEkP/JGJnBauAClYavNKJPW1yOTWRPIyfj4is3EaJxQXILQ==",
+      "path": "dapper/2.0.123",
+      "hashPath": "dapper.2.0.123.nupkg.sha512"
+    },
+    "FluentMigrator/3.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kOlIRqXbvnNXTJTyxSHFySKJqgkykTgm9+78zAGuzDqUV39VzmW5vdCoksp7R2ctNp7im6z6UTMi5w8VyKdotA==",
+      "path": "fluentmigrator/3.3.2",
+      "hashPath": "fluentmigrator.3.3.2.nupkg.sha512"
+    },
+    "FluentMigrator.Abstractions/3.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-llDjPyUOHzcfmrADIZHe15dnC84k9mE5kEaR5Nyy04Mig7JdcJ2TB2pRrHCM0eLb+EsWnQMfui8KyYTwD4HKpA==",
+      "path": "fluentmigrator.abstractions/3.3.2",
+      "hashPath": "fluentmigrator.abstractions.3.3.2.nupkg.sha512"
+    },
+    "MediatR/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4/oUEQEtDbJ9OIwsHux0sNsU9+/GRWFTrsDNXnt18JyPnZQyIisN7CmrieXbzJeG7oDSoY2SOw8frOz/mB6rrA==",
+      "path": "mediatr/10.0.0",
+      "hashPath": "mediatr.10.0.0.nupkg.sha512"
+    },
+    "MediatR.Contracts/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9IyK5yfH/ASk97FNs1cigFdAbXPbBCyoophoO0XXvua18EqHfrNWmRfy+ry2n5O0rNAwIVgI4KpDwDXO2M8VYg==",
+      "path": "mediatr.contracts/1.0.0",
+      "hashPath": "mediatr.contracts.1.0.0.nupkg.sha512"
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IZvcm6MeGSX1AyIYx4+KdYjcqQgtXRIt07dxyWqjGgP3aGazuACAuIrp/czQ7hbxOVSnXqTJCPCjsn98jM/zAw==",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/10.0.0",
+      "hashPath": "mediatr.extensions.microsoft.dependencyinjection.10.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wakg18gHYiUL1pcjjyZuYk6OvDpbSw1E7IWxm78TMepsr+gQ8W0tWzuRm0q/9RFblngwPwo15rrgZSUV51W5Iw==",
+      "path": "microsoft.extensions.dependencyinjection/2.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gxo2Bgg4D6+uyQz1Wdj1FAcBD3870+t37YjplyQXmjLzPWaoU89AIg3AXBXw4fR9CCdWLputZBLm3YaBx+oDFQ==",
+      "path": "microsoft.extensions.options/2.0.1",
+      "hashPath": "microsoft.extensions.options.2.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
+      "path": "microsoft.extensions.primitives/2.0.0",
+      "hashPath": "microsoft.extensions.primitives.2.0.0.nupkg.sha512"
+    },
+    "Npgsql/6.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IIwnoJp0sFkhAydT/KKe/0NhlJKhYPIrXSE95AuU/2dqHNI9alxvjClJSGL+QE8NGqq1SFn+NenxVtm/JYsrJg==",
+      "path": "npgsql/6.0.6",
+      "hashPath": "npgsql.6.0.6.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ToiYqSCioqhtspq2O/jYKtyTC/T0uwWHBTYlzCi6PRbSSHArN1IaRWeHffDamvms5sye5FDUWCfNZgubQpNRsA==",
+      "path": "system.componentmodel.annotations/4.4.1",
+      "hashPath": "system.componentmodel.annotations.4.4.1.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.ValueTuple/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
+      "path": "system.valuetuple/4.4.0",
+      "hashPath": "system.valuetuple.4.4.0.nupkg.sha512"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

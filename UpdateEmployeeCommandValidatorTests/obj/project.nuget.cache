@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UlbGclW46QePMoZVePZTdqUQBRhREl9Y9wKCb0JafzgfBvHg/tKTt5FjhQszCA4uE5ersKylojc297jUbEZzeA==",
+  "dgSpecHash": "pHsoN/xHsgIGM3InO8bMgVeMYous6NpVaL/v3TWEa4J+Zw7bYyVkiFP6ROXZGP2Piauj8Ukk78sFDoXrOQUQdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AMoralt\\RiderProjects\\TestWebService\\UpdateEmployeeCommandValidatorTests\\UpdateEmployeeCommandValidatorTests.csproj",
+  "projectFilePath": "C:\\Users\\AMoralt\\RiderProjects\\Employee-web-service\\UpdateEmployeeCommandValidatorTests\\UpdateEmployeeCommandValidatorTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AMoralt\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\AMoralt\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",

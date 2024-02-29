@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VhHePT0uYqX7WR+kcos0IKpUVZhbmD8FfdjKFWjq6mr1pB5cUIPt+a/wf0814rP7UvK6VBJBT6oXz5BtafOZow==",
+  "dgSpecHash": "9Cu01l6jzxolVErE3RAn0/ekhsSaoseOmevdkfO1Pwyy2FMrrSKYj0GT6fDy6ly9yyqHpYHmE32JZVj3DitmQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AMoralt\\RiderProjects\\TestWebService\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\AMoralt\\RiderProjects\\Employee-web-service\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AMoralt\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\AMoralt\\.nuget\\packages\\fluentmigrator\\3.3.2\\fluentmigrator.3.3.2.nupkg.sha512",

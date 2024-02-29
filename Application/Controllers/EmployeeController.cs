@@ -1,5 +1,5 @@
 ﻿using Application.Commands.Employees;
-using Application.Handlers.Employees;
+using Application.Queries.Employees;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

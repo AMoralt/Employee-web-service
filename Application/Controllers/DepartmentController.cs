@@ -1,5 +1,5 @@
 ﻿using Application.Commands.Departments;
-using Application.Handlers.Departments;
+using Application.Queries.Departments;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

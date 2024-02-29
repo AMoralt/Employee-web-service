@@ -2,7 +2,7 @@
 using Infrastructure.Contracts;
 using MediatR;
 
-namespace Application.Handlers.Departments;
+namespace Application.Queries.Departments;
 
 public class GetDepartmentsQueryHandler : IRequestHandler<GetDepartmentsQuery, IEnumerable<DepartmentDTO>>
 {

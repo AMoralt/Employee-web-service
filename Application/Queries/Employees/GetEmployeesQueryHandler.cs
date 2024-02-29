@@ -2,7 +2,7 @@
 using Infrastructure.Contracts;
 using MediatR;
 
-namespace Application.Handlers.Employees;
+namespace Application.Queries.Employees;
 
 public class GetEmployeesQueryHandler : IRequestHandler<GetEmployeesQuery, IEnumerable<EmployeeDTO>>
 {

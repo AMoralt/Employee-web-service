@@ -659,11 +659,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AMoralt\\RiderProjects\\TestWebService\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\AMoralt\\RiderProjects\\Employee-web-service\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\AMoralt\\RiderProjects\\TestWebService\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\AMoralt\\RiderProjects\\Employee-web-service\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\AMoralt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AMoralt\\RiderProjects\\TestWebService\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\AMoralt\\RiderProjects\\Employee-web-service\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AMoralt\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -678,8 +678,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\AMoralt\\RiderProjects\\TestWebService\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\AMoralt\\RiderProjects\\TestWebService\\Domain\\Domain.csproj"
+            "C:\\Users\\AMoralt\\RiderProjects\\Employee-web-service\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\AMoralt\\RiderProjects\\Employee-web-service\\Domain\\Domain.csproj"
             }
           }
         }
@@ -688,11 +688,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
